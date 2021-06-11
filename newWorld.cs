@@ -9,8 +9,6 @@ namespace Project
         int d;
         int g;
 
-        string ground = ".";
-        string rock = "#";
         View view = new View();
         public newWorld()
         {
@@ -44,8 +42,7 @@ namespace Project
 
             } while (g <= time);
 
-            Console.WriteLine(time);
-            Console.WriteLine(g);
+
         }
     }
 }
